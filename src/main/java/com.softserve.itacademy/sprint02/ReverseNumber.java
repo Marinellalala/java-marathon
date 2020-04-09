@@ -1,3 +1,5 @@
+package com.softserve.itacademy.sprint02;
+
 class ReverseNumber {
     public int reverse(int x) {
         boolean negative = false;

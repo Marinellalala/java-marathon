@@ -1,3 +1,5 @@
+package com.softserve.itacademy.sprint02;
+
 class SQRT {
     public int mySqrt(int x) {
         long a = 0;

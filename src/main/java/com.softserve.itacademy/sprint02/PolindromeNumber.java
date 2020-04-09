@@ -1,3 +1,5 @@
+package com.softserve.itacademy.sprint02;
+
 class PolindromeNumber {
     public boolean isPalindrome(int x) {
         int temp = x;

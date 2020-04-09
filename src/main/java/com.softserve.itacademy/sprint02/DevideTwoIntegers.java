@@ -1,3 +1,5 @@
+package com.softserve.itacademy.sprint02;
+
 class DevideTwoIntegers {
     public int divide(int dividend, int divisor) {
         long rez = 1;

@@ -1,10 +1,6 @@
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.Objects;
-import java.util.Map;
+package com.softserve.itacademy.sprint03;
+
+import java.util.*;
 
 public class MyUtils {
 
@@ -20,7 +16,7 @@ public class MyUtils {
 //         3 3 5
 //         1 2 3
 //         1 4
-    
+
     public int[][] arrSort(int[][] arr) {
         Arrays.sort(arr, (o1, o2) -> {
             if (o1.length == 0 || o2.length == 0) {
