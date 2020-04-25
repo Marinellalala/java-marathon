@@ -100,7 +100,7 @@ public class MyUtils {
         private int id;
         private String name;
 
-        // Constructor, metthods, Code
+        // Constructor, methods, Code
         public Student(int id, String name) {
             this.id = id;
             this.name = name;
