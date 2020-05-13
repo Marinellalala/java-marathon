@@ -11,16 +11,11 @@ package com.softserve.itacademy.sprint08.Question4;
 // Also, we have the class Shop with method sale. This method informs users about a discount
 // product and a percentage of discount by using their goShopping values (which are stored in clients field).
 // The method should return the count of users that will go shopping.
-public class Person implements DecisionMethod{
+public class Person{
     String name;
 
     Person(String name){
         this.name = name;
-    }
-
-    @Override
-    public boolean decide(String product, int discount) {
-        return false;
     }
 
     DecisionMethod goShopping = (product, discount) -> (product.equals("product1") && discount > 10);
